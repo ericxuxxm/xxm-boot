@@ -18,6 +18,6 @@ public class DemoController {
 
     @GetMapping
     public String helloWorldMirro(String name){
-        return "hello world mirro : "+name;
+        return "hello world mirro: "+name;
     }
 }
