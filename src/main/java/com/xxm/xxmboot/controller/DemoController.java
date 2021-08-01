@@ -10,7 +10,7 @@ public class DemoController {
     public String hello(String name){
         return "hello"+name;
     }
-    //初识helloworld
+    //dev test
     @GetMapping
     public String helloWorld(String name){
         return "hello world"+name;
