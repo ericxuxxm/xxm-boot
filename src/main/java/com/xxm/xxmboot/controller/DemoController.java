@@ -15,4 +15,9 @@ public class DemoController {
     public String helloWorld(String name){
         return "hello world"+name;
     }
+
+    @GetMapping
+    public String helloWorldMirro(String name){
+        return "hello world mirro: "+name;
+    }
 }
